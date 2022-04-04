@@ -1,11 +1,13 @@
-# Paramount
+# vinland.vim
 
-A minimal colorscheme for Vim that only puts emphasis on the paramount.
+Official colorscheme of the People's Technocratic Republic of Vinland.
+Based on [paramount].
+
+[paramount]: (https://github.com/owickstrom/vim-colors-paramount)
 
 ## Screenshots
 
-*Fira Code* font on light and dark backgrounds, with Ruby code from
-[VimColors](vimcolors.com/438/paramount/dark):
+*JetBrains Mono* font on light and dark backgrounds.
 
 ![](screenshots/light.png)
 ![](screenshots/dark.png)
@@ -13,7 +15,7 @@ A minimal colorscheme for Vim that only puts emphasis on the paramount.
 ## Installation
 
 Copy the color scheme file to your `~/.vim/colors` directory, or use a plugin
-manager like [Plug][] or [Vundle][] and add `"owickstrom/vim-colors-paramount"`
+manager like [Plug][] or [Vundle][] and add `"jtnegrotto/vim-colors-vinland"`
 as a plugin.
 
 [vundle]: https://github.com/gmarik/Vundle.vim
@@ -22,23 +24,23 @@ as a plugin.
 ## Usage
 
 ```
-:colorscheme paramount
+:colorscheme vinland
 ```
 
 Supports both `background=light` and `background=dark`.
 
 ## Credits
 
-Based on the [pencil][] and [off][] colorschemes.
+Based on [paramount], which in turn is based on the [pencil][] and [off][] colorschemes.
 
+[paramount]: (https://github.com/owickstrom/vim-colors-paramount)
 [pencil]: https://github.com/reedes/vim-colors-pencil
 [off]: https://github.com/reedes/vim-colors-off
 
 ## Contributions
 
 If you find any problems with this color scheme please post an issue here on
-GitHub. If you don't like some specific color, please fork it instead and customize
-to your liking. Thanks!
+GitHub.
 
 ## License
 

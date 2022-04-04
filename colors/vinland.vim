@@ -37,7 +37,7 @@ let s:blue            = { "gui": "#20BBFC", "cterm": "12"  }
 let s:light_blue      = { "gui": "#b6d6fd", "cterm": "153" }
 let s:dark_cyan       = { "gui": "#20A5BA", "cterm": "6"   }
 let s:light_cyan      = { "gui": "#4FB8CC", "cterm": "14"  }
-let s:dark_green      = { "gui": "#529302", "cterm": "64"  } " TODO make sure that the cterm backgrounds sufficiently match the gui ones
+let s:dark_green      = { "gui": "#529302", "cterm": "64"  }
 let s:light_green     = { "gui": "#75d302", "cterm": "112" }
 let s:dark_purple     = { "gui": "#af5fd7", "cterm": "134" }
 let s:light_purple    = { "gui": "#a790d5", "cterm": "140" }
@@ -186,7 +186,7 @@ call s:h("TabLineSel",    {"fg": s:green, "bg": s:bg_subtle, "gui": "bold", "cte
 call s:h("TabLineFill",   {"fg": s:norm, "bg": s:bg_very_subtle})
 call s:h("CursorColumn",  {"bg": s:bg_very_subtle})
 call s:h("CursorLine",    {"bg": s:bg_very_subtle})
-call s:h("ColorColumn",   {"bg": s:bg_subtle})
+call s:h("ColorColumn",   {"bg": s:bg_very_subtle})
 
 call s:h("MatchParen",    {"bg": s:bg_subtle, "fg": s:norm})
 call s:h("qfLineNr",      {"fg": s:medium_gray})
